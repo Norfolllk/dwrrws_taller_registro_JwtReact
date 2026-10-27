@@ -1,0 +1,3 @@
+"id","username","password","rol"
+1,"admin_laura","$2a$10$sX3pltOBaH3vYh9cNZdouezzE.PMJMPq9TyQ0ezDT/bX80QsmoOs6","ADMIN"
+2,"dev_carlos","$2a$10$IpG2VtFYTL5LQNeRsZUyeeF0K2RL77zZoyniamKIEYMgVtQemzIWO","USER"
