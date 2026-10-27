@@ -28,10 +28,13 @@ function Registrar() {
         body: JSON.stringify({ username, password, rol }),
       });
 
-      if (!response.ok) {
+       if (!response.ok) {
         const texto = await response.text();
         throw new Error(texto || "No se pudo registrar el usuario");
       }
+
+      const usuarioCreado = await response.json();
+      console.log("Usuario creado:", usuarioCreado);
 
       setMensaje("Usuario registrado correctamente. Redirigiendo al login...");
 
